@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Sebastián Urbina</h1>
-<h3 align="center">A passionate frontend developer from India</h3>
+<h3 align="center">Industrial Engineering from the University of Chile</h3>
 
 - 🔭 I’m currently working on [botOfertas](https://github.com/SebasUrbina/botOfertas)
 
