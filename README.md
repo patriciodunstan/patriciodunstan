@@ -1,6 +1,6 @@
 # Bienvenido a mi Perfil de GitHub!
 
-¡Hola! Soy Patricio Dunstan Saez, un desarrollador de software con experiencia en JavaScript, ReactJs, NextJs, TailwindCSS, Git, GitHub, Scrum y Jira. Me encanta crear y ayudar a solucionar las necesidades de las personas.
+¡Hola! Soy Patricio Dunstan Saez, un Ingeniero en Maquinaria y Mecánica Automotriz y estudiante de Técnico Informático en IPP. Estoy en un proceso de reconversión, ya que al estudiar las bases de programación, me di cuenta de que es lo que realmente me gusta hacer. Desde ese día, no he detenido mi camino para crecer como desarrollador. Me encanta el mundo de la tecnología por su apertura a compartir información, la creación y la ayuda para solucionar problemáticas, y sobre todo, ayudar a las personas a resolver sus necesidades. Me gusta trabajar en ambientes colaborativos y en equipos, ya que creo que un buen equipo siempre marca y marcará la diferencia. Sobre todo, el apoyo entre compañeros y la capacidad de aceptar diferentes puntos de vista. Esto hace que al resolver un problema o necesidad, la solución sea la mejor posible.
 
 ## Mis Proyectos Destacados
 
