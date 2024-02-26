@@ -52,6 +52,8 @@ Data Science and Machine Learning Frameworks
 ![PSQL](https://img.shields.io/badge/PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white)
 ![SQL](https://img.shields.io/badge/MySQL-00000F?style=flat-square&logo=mysql&logoColor=white)
 ![MongoDB](https://img.shields.io/static/v1?style=flat-square&message=MongoDB&color=47A248&logo=MongoDB&logoColor=FFFFFF&label=)
+![Geopandas](https://img.shields.io/badge/geopandas-black?logo=geopandas)
+![H3](https://img.shields.io/badge/H3-blue?logo=h3)
 
 Enviroments, Containers, Deploy, CI, etc.
 
