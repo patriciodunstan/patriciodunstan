@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Sebastián Urbina</h1>
-<h3 align="center">Industrial Engineering/MSc Data Science student from the University of Chile</h3>
+<h3 align="center">Industrial Engineering/MSc Data Science from the University of Chile</h3>
 
 - 🔭 I’m currently working as a **Specialist Data Scientist** at [entel]([https://www.entel.cl/)
 
