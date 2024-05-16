@@ -38,6 +38,7 @@ Programming Languages
 
 ![Python](https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue)
 ![R](https://img.shields.io/badge/R-276DC3?style=for-the-badge&logo=r&logoColor=white)
+![LaTeX](https://img.shields.io/badge/latex-%23008080.svg?style=for-the-badge&logo=latex&logoColor=white)
 
 Data Science and Machine Learning Frameworks
 
@@ -60,12 +61,14 @@ Enviroments, Containers, Deploy, CI, etc.
 ![Conda](https://img.shields.io/badge/conda-342B029.svg?&style=flat-square&logo=anaconda&logoColor=white)
 ![Github](https://img.shields.io/badge/GitHub-100000?style=flat-square&logo=github&logoColor=white)
 ![Bitbucket](https://img.shields.io/badge/bitbucket-%230047B3.svg?style=flat-square&logo=bitbucket&logoColor=white)
+![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=flat-square&logo=docker&logoColor=white)
 
 Cloud
 
 
 ![GCP](https://img.shields.io/badge/Google_Cloud-4285F4?style=flat-square&logo=google-cloud&logoColor=white)
 ![AWS](https://img.shields.io/badge/Amazon_AWS-FF9900?style=flat-square&logo=amazonaws&logoColor=white)
+![Azure](https://img.shields.io/badge/azure-%230072C6.svg?style=flat-square&logo=microsoftazure&logoColor=white)
 
 BI
 
@@ -80,3 +83,4 @@ Others
 ![jupyter](https://img.shields.io/badge/Jupyter-F37626.svg?&style=flat-square&logo=Jupyter&logoColor=white)
 ![Djando](https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white)
 ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=flat-square&logo=postman&logoColor=white)
+![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=flat-square&logo=visual-studio-code&logoColor=white)
