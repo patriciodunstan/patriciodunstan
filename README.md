@@ -14,10 +14,10 @@
     <a href="mailto:sebastian.urbina@ug.uchile.cl">
         <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
     </a>
-    <a href="0_en_CV_Sebastian_Urbina_.pdf">
+    <a href="CV_Sebastian_Urbina_en.pdf">
         <img src="https://img.shields.io/badge/Resume-Blue?style=for-the-badge&logoColor=white"/>
     </a>
-    <a href="0_es_CV_Sebastian_Urbina.pdf">
+    <a href="CV_Sebastian_Urbina_es.pdf">
         <img src="https://img.shields.io/badge/Resume (in spanish)-a?style=for-the-badge&logoColor=white"/>
     </a>
 </p>
