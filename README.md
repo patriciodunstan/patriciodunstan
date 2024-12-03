@@ -13,12 +13,12 @@
 
 ## Habilidades
 
-- Lenguajes de Programación: JavaScript
-- Tecnologías: Reactjs, NextJs, Tailwind CSS, NodeJs, Express.
+- Lenguajes de Programación: JavaScript, Java
+- Tecnologías: Angular , Typescript , Bootstrap, NodeJs, Express, AWS, Serverless
 
 ## Aprendizaje Continuo
 
-Actualmente estoy aprendiendo Fundamentos de Angular y Java paralelamente
+Actualimente creando proyecto personal de plataforma que entrega indices financieros y webscraping para obtencion de data.
 
 ## Contacto
 
