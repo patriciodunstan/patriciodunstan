@@ -1,7 +1,7 @@
 <h1 align="center">Hi 👋, I'm Sebastián Urbina</h1>
 <h3 align="center">Industrial Engineering/MSc Data Science from the University of Chile</h3>
 
-- 🔭 I’m currently working as a **Specialist Data Scientist** at [entel]([https://www.entel.cl/)
+- 🔭 I’m currently working as a **Senior Specialist Data Scientist** at [entel]([https://www.entel.cl/)
 
 - 🌱 I’m currently learning about **Gen AI Models/Applications**
 
