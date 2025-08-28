@@ -1,4 +1,3 @@
-
 \documentclass[letterpaper,11pt]{article}
 
 \usepackage{latexsym}
@@ -34,7 +33,7 @@
 % Sections formatting
 \titleformat{\section}{
   \vspace{-4pt}\scshape\raggedright\large
-}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+}{}{0em}{}[\color{black}\titlerule \vspace{-8pt}]
 
 %-------------------------
 % Custom commands
@@ -49,10 +48,10 @@
     \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
       \textbf{#1} & #2 \\
       \textit{\small#3} & \textit{\small #4} \\
-    \end{tabular*}\vspace{-5pt}
+    \end{tabular*}\vspace{-8pt}
 }
 
-\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-2pt}}
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
 \newcommand{\resumeSubItemcol}[2]{\resumeItem{#1}{#2}\vspace{-8pt}}
 
 \renewcommand{\labelitemii}{$\circ$}
@@ -69,99 +68,75 @@
 
 %----------HEADING-----------------
 \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
-  \textbf{{\Large Sebastián Ignacio Urbina Gajardo}} & Correo :  \href{mailto:sebastian.urbina97@gmail.com}{sebastian.urbina97@gmail.com}\\
-  \href{https://www.linkedin.com/in/sebaurbina/}{LinkedIn}& Celular :  +(56)-966719190 \\
+  \textbf{{\Large Patricio Ignacio Dunstan Saez}} & Correo :  \href{mailto:patricio.dunstan@gmail.com}{patricio.dunstan@gmail.com}\\
+  \href{https://www.linkedin.com/in/patriciodunstan}{LinkedIn} & Mobile :  +(56)-945822142 \\
 \end{tabular*}
 
-
-%-----------EDUCATION-----------------
-\section{Educación}
-  \resumeSubHeadingListStart
-    \resumeSubheading
-      {Universidad de Chile}{Santiago, Chile}
-      {MSc in Data Science; Promedio: 6.7/7.0}{2023 - 2023}
-      \resumeSubheading
-      {Universidad de Chile}{Santiago, Chile}
-      {Ingeniería Civil Industrial; Promedio: 6.4/7.0}{2018 - 2023}
-      \resumeSubHeadingListStart
-        \resumeSubItem{}{Estudiante destacado: 2018, 2019, 2020, 2021 \& 2022.}
-        \resumeSubItem{}{Intercambio: Universidad Politécnica de Madrid, España.}
-    \resumeSubHeadingListEnd
-  \resumeSubHeadingListEnd
+%-----------EXTRACT-----------------
+\vspace{-8pt}
+\section{Perfil}
+\small{
+Analista Programador y Data Analyst con experiencia en la implementación y optimización de software de gestión, análisis de datos y desarrollo Full Stack. Profesional comprometido, disciplinado y resiliente, con alta capacidad de aprendizaje autónomo y adaptación al cambio. Valora el trabajo en equipo y la retroalimentación para la consecución de objetivos organizacionales y personales.
+}
 
 %-----------EXPERIENCE-----------------
 \section{Experiencia Laboral}
   \resumeSubHeadingListStart
 
     \resumeSubheading
-      {Entel}{Santiago, Chile}
-      {Data Scientist Specialist}{Abril 2024 - Presente}
+      {Constructora Harcha}{Los Lagos, Chile}
+      {Desarrollador Automatización y Datos}{Febrero 2025 - Presente}
       \resumeItemListStart
-        \resumeItem{}
-            {Responsable de la gestión, seguimiento y desarrollo de Casos de Uso de Inteligencia Artificial Generativa a lo largo de la compañía, asegurando el avance y éxito transversal en distintas áreas.}
+        \resumeItem{}{Implementación de software de gestión integral, optimizando procesos críticos en Operaciones, Comercial y Taller.}
+        \resumeItem{}{Gestión de KPIs en mantenciones, ventas y consumo, incrementando la eficiencia operativa.}
+        \resumeItem{}{Generación de reportes estratégicos y operativos con Python, Excel y Looker Studio.}
       \resumeItemListEnd
 
     \resumeSubheading
-      {Entel}{Santiago, Chile}
-      {Data Scientist}{Agosto 2023 - Marzo 2024}
+      {NexIA}{Remoto}
+      {Analista Programador}{Mayo 2024 - Dic 2024}
       \resumeItemListStart
-        \resumeItem{}
-          {Lideré un proyecto de ciencia de datos enfocado en la detección de anomalías en el consumo energético de antenas de telecomunicaciones, coordinando con la contraparte del negocio y reportando avances semanales.}
-        \resumeItem{}
-          {Desarrollé y presenté los resultados de un novedoso indicador para cuantificar la experiencia del cliente a través de datos de telefonía móvil, comunicando los resultados al Vicepresidente del Mercado Personas.}
+        \resumeItem{}{Reparación de bugs en frontend Angular y backend Node.js/Express/AWS Lambda.}
+        \resumeItem{}{Desarrollo de nuevos módulos, vistas y servicios en arquitectura serverless.}
+        \resumeItem{}{Pruebas funcionales, despliegues con Serverless Framework y monitoreo con CloudWatch.}
       \resumeItemListEnd
 
-      \resumeSubheading
-      {Antofagasta Minerals}{Santiago, Chile}
-      {Práctica}{Enero 2022 - Marzo 2022}
+    \resumeSubheading
+      {Avantgarde}{Santiago, Chile}
+      {Ingeniero Software}{Feb 2024 - Mayo 2024}
       \resumeItemListStart
-        \resumeItem{}
-          {Lideré la implementación de un módulo SAP de salud en todo el grupo minero, coordinando sesiones de trabajo y capacitaciones. Presenté los principales resultados al Gerente Corporativo de Salud.}
+        \resumeItem{}{Desarrollo de sistemas de gestión inmobiliaria con Angular 17 y NestJS.}
+        \resumeItem{}{Implementación de microservicios con Sequelize y BFF para integración frontend-backend.}
       \resumeItemListEnd
-    
+
+    \resumeSubheading
+      {Desafío Latam}{Remoto}
+      {Desarrollador Front-End}{Jun 2023 - Sep 2023}
+      \resumeItemListStart
+        \resumeItem{}{Optimización y actualización de página web con Next.js, React y Tailwind.}
+        \resumeItem{}{Gestión de proyecto en Jira y Git, asegurando entregas alineadas con requerimientos del cliente.}
+      \resumeItemListEnd
+
   \resumeSubHeadingListEnd
 
-  %---------Teaching/Leadership Experience-------
-\section{Experiencia Académica/Liderazgo}
-\resumeSubHeadingListStart
-\resumeSubItem
-{Profesor Auxiliar, Universidad de Chile}
-{; Realicé clases auxiliares a más de 80 alumnos del curso Análisis de Datos e Inferencia Causal, parte de la malla de Ingeniería Civil Industrial.}
- \resumeSubItem
-   {Ayudante, Universidad de Chile}
-   {; Participé como Ayudante de cátedra en los siguientes cursos: Introducción al Deep Learning, Finanzas II \& Cátedra del Pensar.}
-\resumeSubItem
-   {UCh e-sports, Universidad de Chile}
-   {; Participé como miembro del grupo organizado de e-sports de la facultad y competí en un torneo representando a la Universidad en los Juegos de Ingeniería 2018.}
-\resumeSubItem
-   {\href{https://ingenieria.uchile.cl/noticias/188882/estudiantes-fcfm-destacaron-en-5ta-version-del-programa-huawei}{Seeds for the Future, Huawei}}
-   {; Fuí uno de los 50 elegidos por Huawei para participar en el programa Seeds for the future del año 2022. Junto a un equipo multidisplinario propusimos una solución con base tecnológica para mejorar la toma de decisions ambientales.}
-\resumeSubItem
-   {\href{https://www.huawei.com/en/events/lac-ict-talent-summit-2022}{LAC ICT Talent Summit, Huawei, México}}
-   {;  Fuí uno de los 15 elegidos por Huawei a lo largo de todo Chile para participar en un evento de talento digital en México que reunió jóvenes líderes de todo latinoamérica.}
-\resumeSubItem
-   {Secretario Junta de Vecinos, Huapi}
-   {; Participé activamente como Secretario ed la Junta de Vecinos de mi zona residencial. Organizé y Lideré actividades enfocadas en el bienestar de la comunidad como; Día de la Madre, Día del Niño y Navidad.}
- \resumeSubHeadingListEnd
+%-----------EDUCATION-----------------
+\section{Educación}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Talento Digital para Chile}{Chile}
+      {Desarrollador Java}{Enero 2024 - Junio 2024}
+    \resumeSubheading
+      {Instituto Profesional IPP}{Chile}
+      {Técnico en Informática}{Sep 2022 - Sep 2024}
+    \resumeSubheading
+      {Inacap}{Chile}
+      {Ingeniería en Maquinaria, Mecánica Automotriz y Sistemas Electrónicos}{2007 - 2013}
+    \resumeSubheading
+      {Adalid Chile}{Chile}
+      {Especialización DevOps}{Mayo 2025 - Ago 2025}
+  \resumeSubHeadingListEnd
 
-%-------CERTIFICATIONS------------------  
-\section{Certificaciones}
-% \vspace{-15pt}
-\resumeSubHeadingListStart
-    \resumeSubItem{Huawei}{: Seeds for the future program}
-    \resumeSubItem{HardvardX}{: Exercising Leadership: Foundational Principles}
-    \resumeSubItem{Universidad de Chicago}{: AI and Data Science for Leaders}
-    \resumeSubItem{Universidad Mayor}{: Capacitación programa ``Pre-textos''}
-\resumeSubHeadingListEnd
-
-%--------PROGRAMMING SKILLS------------
-\section{Habilidades}
+%-----------PROGRAMMING SKILLS------------
+\section{Habilidades Técnicas}
  \resumeSubHeadingListStart
- \resumeSubItem{}{
-    \textbf{Languages}{: Python, R, SQL, GIT, Latex.}
-    \textbf{Herramientas}{: PowerBI, Tableau, Excel.}}
-    \textbf{Inglés}{: B2.}
-    % \textbf{Cloud}{: AWS}
- \resumeSubHeadingListEnd
-
-\end{document}
+ \resu
