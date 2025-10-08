@@ -13,10 +13,10 @@
     <a href="mailto:patricio.dunstan@gmail.com">
         <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
     </a>
-    <a href="CV_Patricio_Dunstan_EN.pdf">
+    <a href="patriciodunstanCVEn.pdf">
         <img src="https://img.shields.io/badge/Resume-Blue?style=for-the-badge&logoColor=white"/>
     </a>
-    <a href="CV_Patricio_Dunstan_ES.pdf">
+    <a href="patriciodunstanCV.pdf">
         <img src="https://img.shields.io/badge/Resume_(Spanish)-green?style=for-the-badge&logoColor=white"/>
     </a>
 </p>
