@@ -33,22 +33,23 @@
 % Sections formatting
 \titleformat{\section}{
   \vspace{-4pt}\scshape\raggedright\large
-}{}{0em}{}[\color{black}\titlerule \vspace{-8pt}]
+}{}{0em}{}[\color{black}\titlerule \vspace{-4pt}] % Reducido a -4pt
 
 %-------------------------
 % Custom commands
 \newcommand{\resumeItem}[2]{
   \item\small{
-    \textbf{#1}{#2 \vspace{-2pt}}
+    \textbf{#1}{#2 \vspace{-3pt}} % Más compacto entre ítems
   }
 }
 
+% Comando de Subencabezado de Experiencia: Espaciado y alineación ajustados
 \newcommand{\resumeSubheading}[4]{
   \vspace{-1pt}\item
-    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+    \begin{tabular*}{1.0\textwidth}{l@{\extracolsep{\fill}}r} % 1.0\textwidth para usar todo el ancho
       \textbf{#1} & #2 \\
       \textit{\small#3} & \textit{\small #4} \\
-    \end{tabular*}\vspace{-8pt}
+    \end{tabular*}\vspace{-6pt} % Espacio negativo suave después del encabezado
 }
 
 \newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
@@ -58,8 +59,10 @@
 
 \newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
 \newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
-\newcommand{\resumeItemListStart}{\begin{itemize}}
-\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+% Lista de Items: Menos espacio antes y después
+\newcommand{\resumeItemListStart}{\begin{itemize}[leftmargin=0.2in, itemsep=1pt, parsep=0pt]} % itemsep=1pt para compactar los puntos
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-8pt}} % Más espacio negativo para acercar el siguiente subencabezado
 
 %-------------------------------------------
 %%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -73,7 +76,7 @@
 \end{tabular*}
 
 %-----------PROFILE-----------------
-\vspace{-8pt}
+\vspace{-4pt}
 \section{Perfil Profesional}
 \small{
 Líder en transformación digital de procesos y Analista Programador con experiencia en desarrollo Full Stack y gestión de datos. Profesional comprometido, disciplinado y resiliente, con alta capacidad de autoaprendizaje y adaptación al cambio. Valora el trabajo en equipo y la retroalimentación para la consecución de objetivos organizacionales.
@@ -153,7 +156,7 @@ Líder en transformación digital de procesos y Analista Programador con experie
 
 %-----------CERTIFICATIONS-----------------
 \section{Certificaciones}
-\vspace{-15pt}
+\vspace{-10pt}
   \begin{multicols}{2}
     \resumeSubHeadingListStart
     \resumeSubItemcol{Power BI}{: Curso de Power BI}
