@@ -14,11 +14,13 @@
 \usepackage{multicol}
 \usepackage[left=1.5cm,right=1.5cm,top=1.5cm,bottom=1.5cm]{geometry}
 
+
 \pagestyle{fancy}
 \fancyhf{}
 \fancyfoot{}
 \renewcommand{\headrulewidth}{0pt}
 \renewcommand{\footrulewidth}{0pt}
+\setlength{\footskip}{4.1pt} % Ajuste sugerido por fancyhdr
 
 \urlstyle{same}
 \raggedbottom
@@ -28,20 +30,21 @@
 \titleformat{\section}{\vspace{2pt}\scshape\raggedright\large}{}{0em}{}[\color{black}\titlerule \vspace{2pt}]
 
 
+
 %-------------------------
 
-% Custom commands (improved)
+% Comandos personalizados (mejorados)
 \newcommand{\resumeItem}[2]{
-    \item\small{\textbf{#1} #2}
+	\item\small{\textbf{#1} #2}
 }
 
 
 \newcommand{\resumeSubheading}[4]{
-    \item
-        \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}p{0.6\textwidth}r}
-            		extbf{#1} & #2 \\
-            		extit{\small#3} & \textit{\small #4} \\
-        \end{tabular*}
+	\item
+		\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}p{0.6\textwidth}r}
+				\textbf{#1} & #2 \\
+				\textit{\small #3} & \textit{\small #4} \\
+		\end{tabular*}
 }
 
 
@@ -51,10 +54,12 @@
 \renewcommand{\labelitemii}{$\circ$}
 
 
-\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.2cm]}
+% Lista sin viñetas para subtítulos
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.2cm,label={}]}
 \newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
 \newcommand{\resumeItemListStart}{\begin{itemize}[leftmargin=0.4cm]}
 \newcommand{\resumeItemListEnd}{\end{itemize}}
+
 
 %-------------------------------------------
 %%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -63,10 +68,10 @@
 
 
 %----------HEADING-----------------
-\begin{center}
-    {\LARGE \textbf{Patricio Ignacio Dunstan Saez}} \\[2pt]
-    \href{mailto:patricio.dunstan@gmail.com}{patricio.dunstan@gmail.com} $\vert$ +56 945822142 $\vert$ \href{https://www.linkedin.com/in/patriciodunstan}{LinkedIn}
-\end{center}
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{{\Large Patricio Ignacio Dunstan Saez}} & Email :  \href{mailto:patricio.dunstan@gmail.com}{patricio.dunstan@gmail.com}\\
+  \href{https://www.linkedin.com/in/patriciodunstan}{LinkedIn} & Mobile :  +(56)-945822142 \\
+\end{tabular*}
 
 %-----------PROFILE-----------------
 \section{Profile}
@@ -76,85 +81,80 @@ Digital Transformation Leader and Software Developer with Full Stack experience 
 
 %-----------EXPERIENCE-----------------
 \section{Experience}
-  \resumeSubHeadingListStart
-
-    \resumeSubheading
-      {Constructora Harcha}{Los Lagos, Chile}
-      {Automation \& Data Developer}{Feb 2025 – Present}
-      \resumeItemListStart
-        \resumeItem{}{Creation and Implementation the migration of critical modules to a custom platform using \textbf{Flutter, Flask, MySQL}, deployed on \textbf{Google Cloud Run} and \textbf{Firebase}.}
-        \resumeItem{}{Implemented a \textbf{CI/CD} process with \textbf{GitHub Actions} to automate software delivery.}
-        \resumeItem{}{Established an integrated management system, digitizing key processes (Operations, Sales, Workshop) and generating real-time \textbf{dashboards}.}
-        \resumeItem{}{Managed control of key processes (maintenance, sales, fuel) through \textbf{KPIs} tracking, increasing operational efficiency.}
-        \resumeItem{}{Generated strategic reports with \textbf{Python}, Excel, and Looker Studio, ensuring data reliability for management decision-making.}
-      \resumeItemListEnd
-
-    \resumeSubheading
-      {NexIA}{Remote}
-      {Software Analyst/Developer}{May 2024 – Dec 2024}
-      \resumeItemListStart
-        \resumeItem{}{Resolved classified \textbf{bugs} (visual, logic, and service) in \textbf{Angular} frontend and \textbf{Node.js/Express/AWS Lambda} backend under a \textit{serverless} architecture.}
-        \resumeItem{}{Developed new modules and functionalities, including view creation, services, and configuration in \textbf{serverless.yml}.}
-        \resumeItem{}{Managed infrastructure and deployment using \textbf{Serverless Framework} and monitored performance with \textbf{AWS CloudWatch}.}
-        \resumeItem{}{Used \textbf{AWS S3} for temporary document persistence and resolved deployment errors using \textbf{CloudFormation}.}
-        \resumeItem{}{Ensured timely delivery of solutions, meeting requirements detailed in \textbf{Jira} tickets.}
-      \resumeItemListEnd
-
-    \resumeSubheading
-      {Avantgarde}{Santiago, Chile}
-      {Software Engineer}{Feb 2024 – May 2024}
-      \resumeItemListStart
-        \resumeItem{}{Developed real estate management systems using \textbf{Angular 17} and \textbf{NestJS}.}
-        \resumeItem{}{Implemented microservices with \textbf{Sequelize ORM} and \textbf{BFF} (Backend for Frontend) with NestJS.}
-      \resumeItemListEnd
-
-    \resumeSubheading
-      {Desafío Latam}{Remote}
-      {Front-End Developer}{Jun 2023 – Sep 2023}
-      \resumeItemListStart
-        \resumeItem{}{Optimized and updated client's website using \textbf{Next.js, React} and \textbf{Tailwind CSS}.}
-        \resumeItem{}{Managed project delivery with \textbf{Jira} and \textbf{Git}, ensuring alignment with client requirements.}
-      \resumeItemListEnd
-
-  \resumeSubHeadingListEnd
+    \resumeSubHeadingListStart
+    \resumeSubheading
+      {Constructora Harcha}{Los Lagos, Chile}
+      {Automation \& Data Developer}{Feb 2025 -- Present}
+      \resumeItemListStart
+        \resumeItem{}{Creation and Implementation of the migration of critical modules to a custom platform using \textbf{Flutter, Flask, MySQL}, deployed on \textbf{Google Cloud Run} and \textbf{Firebase}.}
+        \resumeItem{}{Implemented a \textbf{CI/CD} process with \textbf{GitHub Actions} to automate software delivery.}
+        \resumeItem{}{Established an integrated management system, digitizing key processes (Operations, Sales, Workshop) and generating real-time \textbf{dashboards}.}
+        \resumeItem{}{Managed control of key processes (maintenance, sales, fuel) through \textbf{KPIs} tracking, increasing operational efficiency.}
+        \resumeItem{}{Generated strategic reports with \textbf{Python}, Excel, and Looker Studio, ensuring data reliability for management decision-making.}
+      \resumeItemListEnd
+    \resumeSubheading
+      {NexIA}{Remote}
+      {Software Analyst/Developer}{May 2024 -- Dec 2024}
+      \resumeItemListStart
+        \resumeItem{}{Resolved classified \textbf{bugs} (visual, logic, and service) in \textbf{Angular} frontend and \textbf{Node.js/Express/AWS Lambda} backend under a \textit{serverless} architecture.}
+        \resumeItem{}{Developed new modules and functionalities, including view creation, services, and configuration in \textbf{serverless.yml}.}
+        \resumeItem{}{Managed infrastructure and deployment using \textbf{Serverless Framework} and monitored performance with \textbf{AWS CloudWatch}.}
+        \resumeItem{}{Used \textbf{AWS S3} for temporary document persistence and resolved deployment errors using \textbf{CloudFormation}.}
+        \resumeItem{}{Ensured timely delivery of solutions, meeting requirements detailed in \textbf{Jira} tickets.}
+      \resumeItemListEnd
+    \resumeSubheading
+      {Avantgarde}{Santiago, Chile}
+      {Software Engineer}{Feb 2024 -- May 2024}
+      \resumeItemListStart
+        \resumeItem{}{Developed real estate management systems using \textbf{Angular 17} and \textbf{NestJS}.}
+        \resumeItem{}{Implemented microservices with \textbf{Sequelize ORM} and \textbf{BFF} (Backend for Frontend) with NestJS.}
+      \resumeItemListEnd
+    \resumeSubheading
+      {Desafío Latam}{Remote}
+      {Front-End Developer}{Jun 2023 -- Sep 2023}
+      \resumeItemListStart
+        \resumeItem{}{Optimized and updated client's website using \textbf{Next.js, React} and \textbf{Tailwind CSS}.}
+        \resumeItem{}{Managed project delivery with \textbf{Jira} and \textbf{Git}, ensuring alignment with client requirements.}
+      \resumeItemListEnd
+    \resumeSubHeadingListEnd
 
 %-----------EDUCATION-----------------
 \section{Education}
-  \resumeSubHeadingListStart
-    \resumeSubheading
-      {Talento Digital para Chile}{Chile}
-      {Java Developer Program}{Jan 2024 – Jun 2024}
-    \resumeSubheading
-      {Instituto Profesional IPP}{Chile}
-      {Technical Degree in Computer Science}{Sep 2022 – Sep 2024}
-    \resumeSubheading
-      {Inacap}{Chile}
-      {BSc in Mechanical Engineering, Automotive and Electronic Systems}{2007 – 2013}
-    \resumeSubheading
-      {Adalid Chile}{Chile}
-      {DevOps Specialization}{May 2025 – Aug 2025}
-  \resumeSubHeadingListEnd
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Talento Digital para Chile}{Chile}
+      {Java Developer Program}{Jan 2024 -- Jun 2024}
+    \resumeSubheading
+      {Instituto Profesional IPP}{Chile}
+      {Technical Degree in Computer Science}{Sep 2022 -- Sep 2024}
+    \resumeSubheading
+      {Inacap}{Chile}
+      {BSc in Mechanical Engineering, Automotive and Electronic Systems}{2007 -- 2013}
+    \resumeSubheading
+      {Adalid Chile}{Chile}
+      {DevOps Specialization}{May 2025 -- Aug 2025}
+  \resumeSubHeadingListEnd
 
 %-----------SKILLS-----------------
 \section{Technical Skills}
- \resumeSubHeadingListStart
- \resumeSubItem{}{\textbf{Languages}{: Python, Java, TypeScript}}
- \resumeSubItem{}{\textbf{Frameworks \& Libraries}{: Angular, Node.js, Express, NestJS, Flask, Flutter, Pandas.}}
- \resumeSubItem{}{\textbf{Databases}{: MySQL, PostgreSQL.}}
- \resumeSubItem{}{\textbf{Cloud Platforms}{: AWS (Lambda, ECS, S3, RDS, IAM, CloudWatch, CodePipeline, CloudFormation), GCP (Cloud Run, IAM, Firebase).}}
- \resumeSubItem{}{\textbf{DevOps \& Tools}{: Docker, Serverless Framework, Git, GitHub Actions, Jira, Postman.}}
- \resumeSubItem{}{\textbf{BI \& Analytics}{: Looker Studio, Advanced Excel.}}
- \resumeSubHeadingListEnd
+\resumeSubHeadingListStart
+  \resumeSubItem{}{\textbf{Languages}{: Python, Java, TypeScript}}
+  \resumeSubItem{}{\textbf{Frameworks \& Libraries}{: Angular, Node.js, Express, NestJS, Flask, Flutter, Pandas.}}
+  \resumeSubItem{}{\textbf{Databases}{: MySQL, PostgreSQL.}}
+  \resumeSubItem{}{\textbf{Cloud Platforms}{: AWS (Lambda, ECS, S3, RDS, IAM, CloudWatch, CodePipeline, CloudFormation), GCP (Cloud Run, IAM, Firebase).}}
+  \resumeSubItem{}{\textbf{DevOps \& Tools}{: Docker, Serverless Framework, Git, GitHub Actions, Jira, Postman.}}
+  \resumeSubItem{}{\textbf{BI \& Analytics}{: Looker Studio, Advanced Excel.}}
+\resumeSubHeadingListEnd
 
 
 %-----------CERTIFICATIONS-----------------
 \section{Certifications}
 \resumeSubHeadingListStart
-    \resumeSubItemcol{DevOps}{: DevOps Fundamentals}
-    \resumeSubItemcol{Bootcamp}{: Full Stack Java Trainee}
-    \resumeSubItemcol{EF SET}{: English Certificate B2 Upper Intermediate}
-    \resumeSubItemcol{Platzi}{: Programming Fundamentals}
-    \resumeSubItemcol{Node.js}{: Node.js Fundamentals}
+  \resumeSubItemcol{DevOps}{: DevOps Fundamentals}
+  \resumeSubItemcol{Bootcamp}{: Full Stack Java Trainee}
+  \resumeSubItemcol{EF SET}{: English Certificate B2 Upper Intermediate}
+  \resumeSubItemcol{Platzi}{: Programming Fundamentals}
+  \resumeSubItemcol{Node.js}{: Node.js Fundamentals}
 \resumeSubHeadingListEnd
 
 
