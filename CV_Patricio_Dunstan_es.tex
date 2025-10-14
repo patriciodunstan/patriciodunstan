@@ -32,23 +32,23 @@
 
 % Sections formatting
 \titleformat{\section}{
-  \vspace{-4pt}\scshape\raggedright\large
+  \vspace{-4pt}\scshape\raggedright\large
 }{}{0em}{}[\color{black}\titlerule \vspace{-8pt}]
 
 %-------------------------
 % Custom commands
 \newcommand{\resumeItem}[2]{
-  \item\small{
-    \textbf{#1}{#2 \vspace{-2pt}}
-  }
+  \item\small{
+    \textbf{#1}{#2 \vspace{-2pt}}
+  }
 }
 
 \newcommand{\resumeSubheading}[4]{
-  \vspace{-1pt}\item
-    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
-      \textbf{#1} & #2 \\
-      \textit{\small#3} & \textit{\small #4} \\
-    \end{tabular*}\vspace{-8pt}
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-8pt}
 }
 
 \newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
@@ -62,89 +62,112 @@
 \newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
 
 %-------------------------------------------
-%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \begin{document}
 
 %----------HEADING-----------------
 \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
-  \textbf{{\Large Patricio Ignacio Dunstan Saez}} & Correo :  \href{mailto:patricio.dunstan@gmail.com}{patricio.dunstan@gmail.com}\\
-  \href{https://www.linkedin.com/in/patriciodunstan}{LinkedIn} & Mobile :  +(56)-945822142 \\
+  \textbf{{\Large Patricio Ignacio Dunstan Saez}} & Correo :  \href{mailto:patricio.dunstan@gmail.com}{patricio.dunstan@gmail.com}\\
+  \href{https://www.linkedin.com/in/patriciodunstan}{LinkedIn} & Móvil :  +(56)-945822142 \\
 \end{tabular*}
 
-%-----------EXTRACT-----------------
+%-----------PROFILE-----------------
 \vspace{-8pt}
-\section{Perfil}
+\section{Perfil Profesional}
 \small{
-Analista Programador y Data Analyst con experiencia en la implementación y optimización de software de gestión, análisis de datos y desarrollo Full Stack. Profesional comprometido, disciplinado y resiliente, con alta capacidad de aprendizaje autónomo y adaptación al cambio. Valora el trabajo en equipo y la retroalimentación para la consecución de objetivos organizacionales y personales.
+Líder en transformación digital de procesos y Analista Programador con experiencia en desarrollo Full Stack y gestión de datos. Profesional comprometido, disciplinado y resiliente, con alta capacidad de autoaprendizaje y adaptación al cambio. Valora el trabajo en equipo y la retroalimentación para la consecución de objetivos organizacionales.
 }
 
 %-----------EXPERIENCE-----------------
 \section{Experiencia Laboral}
-  \resumeSubHeadingListStart
+  \resumeSubHeadingListStart
 
-    \resumeSubheading
-      {Constructora Harcha}{Los Lagos, Chile}
-      {Desarrollador Automatización y Datos}{Febrero 2025 - Presente}
-      \resumeItemListStart
-        \resumeItem{}{Implementación de software de gestión integral, optimizando procesos críticos en Operaciones, Comercial y Taller.}
-        \resumeItem{}{Gestión de KPIs en mantenciones, ventas y consumo, incrementando la eficiencia operativa.}
-        \resumeItem{}{Generación de reportes estratégicos y operativos con Python, Excel y Looker Studio.}
-      \resumeItemListEnd
+    \resumeSubheading
+      {Constructora Harcha}{Los Lagos, Chile}
+      {Desarrollador Automatización y Datos}{Feb 2025 - Actualidad}
+      \resumeItemListStart
+        \resumeItem{}{Lideré la migración de módulos críticos a una plataforma propia con \textbf{Flutter, Flask, MySQL} y despliegue en \textbf{Google Cloud Run} y \textbf{Firebase}.}
+        \resumeItem{}{Implementé un proceso de \textbf{CI/CD} con \textbf{GitHub Actions} para la automatización de la entrega de software.}
+        \resumeItem{}{Establecí un sistema de gestión integral, digitalizando procesos clave (Operaciones, Comercial, Taller) y generando \textbf{dashboards} en tiempo real.}
+        \resumeItem{}{Gestioné el control de procesos clave (mantenciones, ventas, combustible) mediante seguimiento de \textbf{KPIs} e incrementé la eficiencia operativa.}
+        \resumeItem{}{Generé reportes estratégicos con \textbf{Python}, Excel y Looker Studio, asegurando la fiabilidad de los datos para la toma de decisiones gerenciales.}
+      \resumeItemListEnd
 
-    \resumeSubheading
-      {NexIA}{Remoto}
-      {Analista Programador}{Mayo 2024 - Dic 2024}
-      \resumeItemListStart
-        \resumeItem{}{Reparación de bugs en frontend Angular y backend Node.js/Express/AWS Lambda.}
-        \resumeItem{}{Desarrollo de nuevos módulos, vistas y servicios en arquitectura serverless.}
-        \resumeItem{}{Pruebas funcionales, despliegues con Serverless Framework y monitoreo con CloudWatch.}
-      \resumeItemListEnd
+    \resumeSubheading
+      {NexIA}{Remoto}
+      {Analista Programador}{May 2024 - Dic 2024}
+      \resumeItemListStart
+        \resumeItem{}{Resolución de \textbf{bugs} clasificados (visuales, lógica y servicios) en \textbf{Angular} y \textbf{Node.js/Express/AWS Lambda} bajo arquitectura \textit{serverless}.}
+        \resumeItem{}{Desarrollé nuevos módulos y funcionalidades, incluyendo la creación de vistas, servicios y la configuración en \textbf{serverless.yml}.}
+        \resumeItem{}{Gestioné la infraestructura y el despliegue con \textbf{Serverless Framework} y monitoreé el rendimiento con \textbf{AWS CloudWatch}.}
+        \resumeItem{}{Utilicé \textbf{AWS S3} para la persistencia temporal de documentos y resolví errores de despliegue con \textbf{CloudFormation}.}
+        \resumeItem{}{Aseguré la entrega oportuna de soluciones, cumpliendo con los requisitos detallados en tickets de \textbf{Jira}.}
+      \resumeItemListEnd
 
-    \resumeSubheading
-      {Avantgarde}{Santiago, Chile}
-      {Ingeniero Software}{Feb 2024 - Mayo 2024}
-      \resumeItemListStart
-        \resumeItem{}{Desarrollo de sistemas de gestión inmobiliaria con Angular 17 y NestJS.}
-        \resumeItem{}{Implementación de microservicios con Sequelize y BFF para integración frontend-backend.}
-      \resumeItemListEnd
+    \resumeSubheading
+      {Avantgarde}{Santiago, Chile}
+      {Ingeniero de Software}{Feb 2024 - May 2024}
+      \resumeItemListStart
+        \resumeItem{}{Desarrollo de sistemas de gestión inmobiliaria utilizando \textbf{Angular 17} y \textbf{NestJS}.}
+        \resumeItem{}{Implementación de microservicios con \textbf{Sequelize ORM} y \textbf{BFF} (Backend for Frontend) con NestJS.}
+      \resumeItemListEnd
 
-    \resumeSubheading
-      {Desafío Latam}{Remoto}
-      {Desarrollador Front-End}{Jun 2023 - Sep 2023}
-      \resumeItemListStart
-        \resumeItem{}{Optimización y actualización de página web con Next.js, React y Tailwind.}
-        \resumeItem{}{Gestión de proyecto en Jira y Git, asegurando entregas alineadas con requerimientos del cliente.}
-      \resumeItemListEnd
+    \resumeSubheading
+      {Desafío Latam}{Remoto}
+      {Desarrollador Front-End}{Jun 2023 - Sep 2023}
+      \resumeItemListStart
+        \resumeItem{}{Optimización y actualización de página web con \textbf{Next.js, React} y \textbf{Tailwind CSS}.}
+        \resumeItem{}{Gestión de proyecto en \textbf{Jira} y \textbf{Git}, asegurando entregas alineadas con requerimientos del cliente.}
+      \resumeItemListEnd
 
-  \resumeSubHeadingListEnd
+  \resumeSubHeadingListEnd
 
 %-----------EDUCATION-----------------
 \section{Educación}
-  \resumeSubHeadingListStart
-    \resumeSubheading
-      {Talento Digital para Chile}{Chile}
-      {Desarrollador Java}{Enero 2024 - Junio 2024}
-    \resumeSubheading
-      {Instituto Profesional IPP}{Chile}
-      {Técnico en Informática}{Sep 2022 - Sep 2024}
-    \resumeSubheading
-      {Inacap}{Chile}
-      {Ingeniería en Maquinaria, Mecánica Automotriz y Sistemas Electrónicos}{2007 - 2013}
-    \resumeSubheading
-      {Adalid Chile}{Chile}
-      {Especialización DevOps}{Mayo 2025 - Ago 2025}
-  \resumeSubHeadingListEnd
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Talento Digital para Chile}{Chile}
+      {Desarrollador Java}{Ene 2024 - Jun 2024}
+    \resumeSubheading
+      {Instituto Profesional IPP}{Chile}
+      {Técnico en Informática}{Sep 2022 - Sep 2024}
+    \resumeSubheading
+      {Inacap}{Chile}
+      {Ingeniería en Maquinaria, Mecánica Automotriz y Sistemas Electrónicos}{2007 - 2013}
+    \resumeSubheading
+      {Adalid Chile}{Chile}
+      {Especialización DevOps}{May 2025 - Ago 2025}
+  \resumeSubHeadingListEnd
 
-%-----------TECHNICAL SKILLS-----------------
-\section{Technical Skills}
- \resumeSubHeadingListStart
- \resumeSubItem{}{\textbf{Programming Languages}{: Python, Java, JavaScript, TypeScript, SQL, HTML, LaTeX.}}
- \resumeSubItem{}{\textbf{Frameworks \& Libraries}{: Angular, Node.js, Express, NestJS, Next.js, Pandas, Numpy, Matplotlib.}}
- \resumeSubItem{}{\textbf{Databases}{: MySQL, PostgreSQL, DynamoDB, MongoDB.}}
- \resumeSubItem{}{\textbf{Cloud Platforms}{: AWS (Lambda, ECS, S3, RDS, IAM, CloudWatch), GCP (basic).}}
- \resumeSubItem{}{\textbf{DevOps \& Tools}{: Docker, Serverless Framework, Git, Jira, Postman.}}
- \resumeSubItem{}{\textbf{BI \& Analytics}{: Power BI, Looker Studio, Excel Advanced.}}
- \resumeSubHeadingListEnd
- \resu
- \end{document}
+%-----------SKILLS-----------------
+\section{Habilidades Técnicas}
+ \resumeSubHeadingListStart
+ \resumeSubItem{}{\textbf{Lenguajes}{: Python, Java, JavaScript, TypeScript, SQL, HTML, LaTeX.}}
+ \resumeSubItem{}{\textbf{Frameworks y Librerías}{: Angular, Node.js, Express, NestJS, Next.js, Flask, Flutter, Pandas.}}
+ \resumeSubItem{}{\textbf{Bases de Datos}{: MySQL, PostgreSQL, DynamoDB, MongoDB.}}
+ \resumeSubItem{}{\textbf{Plataformas Cloud}{: AWS (Lambda, ECS, S3, RDS, IAM, CloudWatch, CodePipeline, CloudFormation), GCP (básico).}}
+ \resumeSubItem{}{\textbf{DevOps y Herramientas}{: Docker, Serverless Framework, Git, GitHub Actions, Jira, Postman.}}
+ \resumeSubItem{}{\textbf{BI y Análisis}{: Power BI, Looker Studio, Excel Avanzado.}}
+ \resumeSubHeadingListEnd
+
+%-----------CERTIFICATIONS-----------------
+\section{Certificaciones}
+\vspace{-15pt}
+  \begin{multicols}{2}
+    \resumeSubHeadingListStart
+    \resumeSubItemcol{Power BI}{: Curso de Power BI}
+    \resumeSubItemcol{EF SET}{: Certificado de Inglés B2 Upper Intermediate}
+    \resumeSubItemcol{Bootcamp}{: Full Stack Java Trainee}
+    \resumeSubItemcol{Platzi}{: Fundamentos de Programación}
+    \resumeSubItemcol{Node.js}{: Fundamentos de Node.js}
+  \resumeSubHeadingListEnd
+  \end{multicols}
+
+%-----------LANGUAGES-----------------
+\section{Idiomas}
+ \resumeSubHeadingListStart
+ \resumeSubItem{}{\textbf{Inglés:} Competencia Profesional de Trabajo (B2).}
+ \resumeSubHeadingListEnd
+
+\end{document}
