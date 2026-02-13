@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(choco install:*)",
+      "Bash(dir:*)",
+      "Bash(if not exist \"c:\\\\Users\\\\patricio dunstan sae\\\\patriciodunstan\\\\.vscode\" mkdir \"c:\\\\Users\\\\patricio dunstan sae\\\\patriciodunstan\\\\.vscode\")"
+    ]
+  }
+}
